@@ -1,0 +1,41 @@
+/* App.css */
+
+/* Navbar Styling */
+.nav {
+    background-color: #1f2937; /* Dark gray background */
+    color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav h1 {
+    font-family: "Playwrite GB S", cursive; /* Custom font for navbar title */
+  }
+  
+  .nav a {
+    color: inherit;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  
+  /* Quill Editor Customizations */
+  .ql-editor {
+    min-height: 200px; /* Ensures a minimum height for the editor */
+  }
+  
+  .ql-container {
+    border: none; /* Removes border for a cleaner look */
+  }
+  
+  .ql-toolbar {
+    background-color: #f3f4f6; /* Light gray toolbar background */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav h1 {
+      font-size: 1.25rem; /* Smaller font size on mobile */
+    }
+  }
+  
